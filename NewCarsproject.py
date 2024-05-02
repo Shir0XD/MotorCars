@@ -19,7 +19,7 @@ new_cars=pd.read_csv('new_cars.csv',sep=',',header=0, encoding="latin")
 #Drop Duplicate rows
 new_cars.drop_duplicates(subset=None, keep="first", inplace=True)
 
-#Add new column for Points
+#Add new column for Points Making changes now
 new_cars['Points']=1
 
 #Outliers in Engine HP
